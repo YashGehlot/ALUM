@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array
+
+        name="cosmetics_items">
+
+        <item>HairOil</item>
+
+        <item>Shampoo</item>
+
+        <item>Facewash</item>
+
+        <item>Nailpolish</item>
+
+        <item>Soap</item>
+
+        <item>Surf</item>
+
+        <item>Sunscreen</item>
+
+        <item>BodyLotion</item>
+
+        <item>Listrine</item>
+
+        <item>Toothpaste</item>
+
+
+    </string-array>
+
+
+</resources>

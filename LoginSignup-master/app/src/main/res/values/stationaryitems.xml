@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+
+        name="stationary_items">
+
+        <item>Pen</item>
+
+        <item>Pencil</item>
+
+        <item>Scale</item>
+
+        <item>Drafter</item>
+
+        <item>Notebook</item>
+
+        <item>Eraser</item>
+
+        <item>SketchPen</item>
+
+        <item>Protractor</item>
+
+        <item>Marker</item>
+
+        <item>Stapler</item>
+
+
+    </string-array>
+</resources>

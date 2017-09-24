@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--<CheckBox-->
+        <!--android:text="g1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/grocery1"-->
+        <!--android:fontFamily="monospace"-->
+        <!--android:textSize="18sp"-->
+        <!--android:layout_height="60px"-->
+        <!--android:textAlignment="center" />-->
+
+    <!--<CheckBox-->
+        <!--android:text="g2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60px"-->
+        <!--android:id="@+id/grocery2"-->
+        <!--android:fontFamily="monospace"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAlignment="center"/>-->
+
+    <!--<CheckBox-->
+        <!--android:text="g3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60px"-->
+        <!--android:id="@+id/grocery3"-->
+        <!--android:fontFamily="monospace"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAlignment="center"/>-->
+    <!--<CheckBox-->
+        <!--android:text="g4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/grocery4"-->
+        <!--android:layout_height="60px"-->
+        <!--android:fontFamily="monospace"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAlignment="center"/>-->
+
+    <!--<CheckBox-->
+        <!--android:text="g5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60px"-->
+        <!--android:id="@+id/grocery5"-->
+        <!--android:fontFamily="monospace"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAlignment="center"/>-->
+
+    <!--<CheckBox-->
+        <!--android:text="g6"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60px"-->
+        <!--android:id="@+id/grocery6"-->
+        <!--android:fontFamily="monospace"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAlignment="center"/>-->
+    <!--<CheckBox-->
+        <!--android:text="g7"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:id="@+id/grocery7"-->
+        <!--android:layout_height="60px"-->
+        <!--android:fontFamily="monospace"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAlignment="center"/>-->
+
+    <!--<CheckBox-->
+        <!--android:text="g8"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60px"-->
+        <!--android:id="@+id/grocery8"-->
+        <!--android:fontFamily="monospace"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAlignment="center"/>-->
+
+    <!--<CheckBox-->
+        <!--android:text="g9"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60px"-->
+        <!--android:id="@+id/grocery9"-->
+        <!--android:fontFamily="monospace"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAlignment="center"/>-->
+    <!--<CheckBox-->
+        <!--android:text="g10"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="60px"-->
+        <!--android:id="@+id/grocery10"-->
+        <!--android:fontFamily="monospace"-->
+        <!--android:textSize="18sp"-->
+        <!--android:textAlignment="center"/>-->
+    <ListView
+    android:id="@+id/list"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    />
+
+    <Button
+    android:id="@+id/getchoice"
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:text="Save"
+        android:background="@null"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+        <string-array
+
+        name="grocery_items">
+
+        <item>Apple</item>
+
+        <item>BakingSoda</item>
+
+        <item>Salt</item>
+
+        <item>Napkins</item>
+
+        <item>Cocoa</item>
+
+        <item>Kiwi</item>
+
+        <item>Flour</item>
+
+        <item>Nuts</item>
+
+        <item>Rice</item>
+
+        <item>Milk</item>
+
+
+        </string-array>
+
+
+    </resources>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:layout_margin="15dp" >
+
+
+    <Button
+        android:id="@+id/buttongrocery"
+        android:layout_width="fill_parent"
+        android:layout_height="120px"
+        android:text="Grocery"
+        android:onClick="signIn"
+        android:textSize="20sp"
+        android:background="@null"
+        android:layout_above="@+id/buttonstationary"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonstationary"
+        android:layout_width="fill_parent"
+        android:layout_height="120px"
+        android:text="Stationary"
+        android:textSize="20sp"
+        android:background="@null"
+        android:layout_above="@+id/buttoncosmetics"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Cosmetics"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:id="@+id/buttoncosmetics"
+        android:textSize="20sp"
+        android:background="@null"
+        android:layout_marginBottom="72dp"
+        android:layout_above="@+id/buttonupdate"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="UPDATE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonupdate"
+        android:onClick="update"
+
+        android:layout_marginBottom="195dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnSpecial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SpecialOffer"
+        android:text="Special Offer"
+        android:layout_below="@+id/buttoncosmetics"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your wifi SSID is: 3G"
+        android:layout_marginBottom="26dp"
+        android:layout_above="@+id/specialOffer"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/specialOffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are not broadcasting any special offers currently."
+        android:layout_marginBottom="41dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

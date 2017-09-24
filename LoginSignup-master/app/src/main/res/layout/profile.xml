@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="207dp"
+        android:layout_height="134dp"
+        app:srcCompat="@android:drawable/ic_menu_crop" />
+    <EditText
+        android:id="@+id/profile_full_name"
+        android:hint="Full Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <requestFocus />
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/phone_no"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number"
+        android:inputType="phone"
+        android:maxLength="10"
+         />
+
+    <EditText
+        android:id="@+id/shop_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Shop Name"
+         />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+         />
+
+    <Button
+        android:id="@+id/profile_Save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_marginBottom="60dp"
+        android:background="@null"/>
+</LinearLayout>
