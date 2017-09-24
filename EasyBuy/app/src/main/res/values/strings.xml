@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">EasyBuy</string>
+    <string-array name="items_to_do">
+        <item>Cosmetics</item>
+        <item>Grocery</item>
+        <item>Stationary</item>
+    </string-array>
+
+    <string-array name="items1">
+        <item>HairOil</item>
+        <item>Shampoo</item>
+        <item>Facewash</item>
+        <item>Nailpolish</item>
+        <item>Soap</item>
+        <item>Surf</item>
+        <item>Sunscreen</item>
+        <item>BodyLotion</item>
+        <item>Listrine</item>
+        <item>Toothpaste</item>
+    </string-array>
+
+    <string-array name="items2">
+        <item>Apple</item>
+        <item>BakingSoda</item>
+        <item>Salt</item>
+        <item>Napkins</item>
+        <item>Cocoa</item>
+        <item>Kiwi</item>
+        <item>Flour</item>
+        <item>Nuts</item>
+        <item>Rice</item>
+        <item>Milk</item>
+    </string-array>
+
+    <string-array name="items3">
+        <item>Pen</item>
+        <item>Pencil</item>
+        <item>Scale</item>
+        <item>Drafter</item>
+        <item>Notebook</item>
+        <item>Eraser</item>
+        <item>SketchPen</item>
+        <item>Protractor</item>
+        <item>Marker</item>
+        <item>Stapler</item>
+    </string-array>
+
+</resources>
